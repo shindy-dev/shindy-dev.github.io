@@ -1,0 +1,144 @@
+baseURL = 'https://shindy-dev.github.io/'
+languageCode = 'ja'
+defaultContentLanguage = "ja"
+title = "shindy-dev.github.io"
+theme = "PaperMod"
+
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = true
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = false
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "shindy-dev.github.io"
+  description = "趣味書いた技術メモです🎹"
+  keywords = ["Blog", "shindy", "Tech"]
+  author = "shindy"
+  # author = ["Me", "You"]
+  images = ["/favicon.ico"]
+  DateFormat = "2006年1月2日"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  hasMermaid = true
+
+  [params.assets]
+    disableHLJS = true
+  #  favicon = "<link / abs url>"
+  #  favicon16x16 = "<link / abs url>"
+  #  favicon32x32 = "<link / abs url>"
+  #  apple_touch_icon = "<link / abs url>"
+  #  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+    text = "shindy-dev.github.io"
+    icon = "/favicon.ico"
+    iconHeight = 35
+
+  [params.profileMode]
+    enabled = true
+    title = "shindy-dev.github.io"
+    subtitle = ""
+    imageUrl = "/favicon.ico"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "shindy-icon"
+
+    [[params.profileMode.buttons]]
+      name = "Shindy's Note"
+      url = "/shindys-note/"
+
+  [params.homeInfoParams]
+    Title = "shindy-dev.github.io"
+    Content = ""
+
+    [[params.socialIcons]]
+      name = "github"
+      url = "https://github.com/shindy-dev"
+
+    [[params.socialIcons]]
+      name = "x"
+      url = "https://x.com/ShindyDev"
+
+    [[params.socialIcons]]
+      name = "youtube"
+      url = "https://www.youtube.com/@shindy-dev"
+
+    [[params.socialIcons]]
+      name = "kofi"
+      url = "https://ko-fi.com/shindy_dev"
+
+
+  [params.analytics.google]
+    SiteVerificationTag = "G-R2YQZRNH87"
+
+  #[params.analytics.bing]
+  #  SiteVerificationTag = "XYZabc"
+
+  #[params.analytics.yandex]
+  #  SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
+
+  [params.editPost]
+    URL = "https://github.com/shindy-dev/shindy-dev.github.io/blob/master/content"
+    Text = "Suggest Changes 📝"
+    appendFilePath = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 10
+    keys = ["title", "permalink", "summary", "content", "tags"]
+
+  [params.footer]
+    text = "[利用規約](/shindys-note/terms/)"
+    hideCopyright = false
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+
+[menu]
+  [[menu.main]]
+    identifier = "repo"
+    name = "Repo"
+    url = "https://github.com/shindy-dev/shindy-dev.github.io"
+    weight = 99
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    # anchorLineNos = true
+    # codeFences = true
+    # guessSyntax = true
+    lineNos = true
+    # style = "monokai"
