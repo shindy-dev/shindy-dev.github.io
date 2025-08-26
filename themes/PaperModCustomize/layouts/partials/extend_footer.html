@@ -1,0 +1,24 @@
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyCgqwQR8X2PV6B2vHc69pJsoiUzV4Z8aGs",
+        authDomain: "playerproject-shindy-works.firebaseapp.com",
+        databaseURL: "https://playerproject-shindy-works.firebaseio.com",
+        projectId: "playerproject-shindy-works",
+        storageBucket: "playerproject-shindy-works.firebasestorage.app",
+        messagingSenderId: "4570377753",
+        appId: "1:4570377753:web:928ee4b410a823acab4488",
+        measurementId: "G-M8B3GRJ3G3"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>

@@ -1,7 +1,7 @@
 baseURL = 'https://shindy-dev.github.io/'
 languageCode = 'ja'
 defaultContentLanguage = "ja"
-title = "shindy-dev.github.io"
+title = "Shindy Projects"
 theme = "PaperMod"
 
 
@@ -17,7 +17,7 @@ pygmentsUseClasses = true
 
 [params]
   env = "production"
-  title = "shindy-dev.github.io"
+  title = "Shindy Projects"
   description = "趣味書いた技術メモです🎹"
   keywords = ["Blog", "shindy", "Tech"]
   author = "shindy"
@@ -53,13 +53,13 @@ pygmentsUseClasses = true
   #  safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-    text = "shindy-dev.github.io"
+    text = "Shindy Projects"
     icon = "/favicon.ico"
     iconHeight = 35
 
   [params.profileMode]
     enabled = true
-    title = "shindy-dev.github.io"
+    title = "Shindy Projects"
     subtitle = ""
     imageUrl = "/favicon.ico"
     imageWidth = 120
@@ -71,7 +71,7 @@ pygmentsUseClasses = true
       url = "/shindys-note/"
 
   [params.homeInfoParams]
-    Title = "shindy-dev.github.io"
+    Title = "Shindy Projects"
     Content = ""
 
     [[params.socialIcons]]
