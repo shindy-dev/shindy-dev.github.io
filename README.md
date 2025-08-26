@@ -1,4 +1,4 @@
-shindy-dev.github.io
+Shindy Projects
 ================
 
 ## Apps
